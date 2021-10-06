@@ -1,0 +1,99 @@
+
+* {
+	margin: 15;
+	padding: 15;
+	box-sizing: border-box;
+	
+	font: bold 14px Arial, sans-serif;
+}
+
+html {
+	height: 100%;
+	background: black;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+#calc {
+	width:490px;
+	height: 500px;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #3EAB0A;
+	background: linear-gradient(#5a042c, #60a329);
+	border-radius: 3px;
+	box-shadow: 0px 4px #cac723, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.numbers span:hover {
+	background: #130557;
+	box-shadow: 0px 4px #093533;
+	color: white;
+}
+
+.top-screen .screen {
+	height: 40px;
+	width: 375px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+
+.numbers span, .top-screen span.erase {
+    width: 90px;
+	height: 50px;
+	float: left;
+	position: relative;
+	top: 0;
+	background: rgb(60, 76, 97);
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin: 0 7px 11px 0;
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+}
+
+.numbers span.sign {
+	background: #291601;
+}
+
+.numbers span.equals {
+	background: #7b834c;
+	box-shadow: 0px 4px #9da853;
+	color: #2f4280;
+}
+
+.numbers span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top-screen span.erase:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
+
+.top-screen span.erase {
+	float: left;
+}
+
+.numbers span.equals:hover {
+	background: #abb850;
+	box-shadow: 0px 4px #717a33;
+	color: #ffffff;
+}
